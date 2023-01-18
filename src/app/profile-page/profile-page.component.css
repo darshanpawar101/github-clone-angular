@@ -1,0 +1,63 @@
+.profile-container{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+.profile-pic-container{
+    border: 5px solid rgba(0,0,0,0.23) ;
+    border-radius: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.profile-pic{
+    height: 190px;
+    width: 190px;
+    border-radius: 150px;
+    margin: 8px;
+}
+
+.profile-user-info{
+    margin-left: 70px;
+    width: 100%;
+}
+
+.user-name{
+    font-size: 40px;
+    margin: 0px;
+}
+
+.user-bio{
+    font-size: 20px;
+    margin: 0px;
+}
+
+.user-location{
+    font-size: 24px;
+    margin: 0px;
+}
+
+a:link {
+    color: rgba(0,0,0,1);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(0,0,0,0.75);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgba(0,0,0,0.5);
+  }
+  
+
+.row-text{
+    display:flex;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+}

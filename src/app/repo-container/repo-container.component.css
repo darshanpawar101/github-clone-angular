@@ -1,0 +1,60 @@
+.repo-space{
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-radius: 30px;
+    background: #F5F5F5;
+    box-shadow:  6px 6px 12px #b8b8b8, -6px -6px 12px #ffffff;
+}
+
+a:link {
+    color: rgba(0,0,0,1);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(0,0,0,0.75);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgba(0,0,0,0.5);
+  }
+
+.repo-text-title{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.repo-text-desc{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.topic-tags-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    flex-direction: row;
+}
+
+.tag-container{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+}
+
+.tags{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,11 @@
+<a href="{{ repourl }}" target="_blank">
+<div class="repo-space">
+    <h1 class="repo-text-title">{{ name }}</h1>
+    <h3 class="repo-text-desc">{{ description}}</h3>
+    <div class="topic-tags-container">
+        <div class="tag-container"  *ngFor="let tag of topics">
+            <h5 class="tags" > {{tag}} </h5>
+        </div>
+    </div>
+</div>
+</a>

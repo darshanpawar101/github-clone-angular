@@ -1,27 +1,34 @@
-# GithubCloneAngular
+# GitHub-Clone-Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
+Github Clone Angular is an Angular Project which helps for searching a user and getting information about that user repositories.
 
-## Development server
+### Visit the Project at - ()
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### Note: Git is require to clone the repo from github
 
-## Code scaffolding
+#### Note: This Project uses Angular version 15.1.1
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Note: Before Running The Project First Install the Node - (https://nodejs.org/)
 
-## Build
+## How to run the Project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Step 1 - Clone this project in your workspace using below command
+- ##### git clone {}
+<hr>
 
-## Running unit tests
+#### Step 2 - Download the Node Modules and Node Packages by runing below command in terminal at root location of the project
+- ##### npm install
+<hr>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Step 3 - Build and run the Project locally using below command in terminal at root location of the project
+- ##### ng serve 
+<hr>
 
-## Running end-to-end tests
+#### Step 4 - Visit the link in any browser which is showing in the console - 
+- ##### http://localhost:4200/
+<hr>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### Step 5 - Enter the GitHub username and Click on Search- 
+- ##### Enter GitHub Username
+<hr>
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
