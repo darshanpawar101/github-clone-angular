@@ -2,7 +2,7 @@
 
 Github Clone Angular is an Angular Project which helps for searching a user and getting information about that user repositories.
 
-### Visit the Project at - ()
+### Visit the Project at - (https://github-clone-angular.vercel.app/)
 
 #### Note: Git is require to clone the repo from github
 
@@ -13,7 +13,7 @@ Github Clone Angular is an Angular Project which helps for searching a user and 
 ## How to run the Project
 
 #### Step 1 - Clone this project in your workspace using below command
-- ##### git clone {}
+- ##### git clone https://github.com/darshanpawar101/github-clone-angular.git
 <hr>
 
 #### Step 2 - Download the Node Modules and Node Packages by runing below command in terminal at root location of the project
